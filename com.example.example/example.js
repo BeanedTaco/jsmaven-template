@@ -7,6 +7,7 @@ const package = yaml.safeLoad(fs.readFileSync(config.friendlyblobs.giphy.jsmaven
 exports.run = (client, message, args, level) => {
     const settings = message.settings = client.getSettings(message.guild);
     if (db.get(`${message.guild.id}.nameOfPackageNOTFRIENDLYNAME`) == false) return;
+        if (db.get(`${message.guild.id}.nameOfPackageNOTFRIENDLYNAME`) == null) return;
 
 };
 
