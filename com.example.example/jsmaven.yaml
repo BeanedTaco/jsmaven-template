@@ -1,0 +1,19 @@
+# File name: jsmaven.yaml
+# Author: SaturdayNightDead
+# Written: 20/05/2020
+# Description: An example JSMaven configuration file. All of these fields are required.
+---
+sku: com.example.example # The SKU.
+name: example # The name, this is derived from the package name in the SKU.
+friendly: Example Package # The package's friendly name.
+metadata:
+  help: example # This is your help command.
+  author: "123456789123456789" # The author. This can be a User ID or a string name.
+  thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Question_mark_%28black%29.svg/200px-Question_mark_%28black%29.svg.png # The thumbnail.
+  description: Example description lol # The description.
+  version: 1.0.0
+  price: Free # The price (In USD or GBP, please specify the currency).
+dependents: # The npm/yarn dependencies.
+  node: "^CURRENT"
+  discord.js: "^CURRENT"
+  anyOtherPackage: "^VERSION"
