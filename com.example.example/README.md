@@ -11,7 +11,7 @@ package is provisioned onto the server, we can fix any code that won't work with
 Read the rest of the README for details.**
 
 ## What library and language is Unicord written in?
-Unicord v7 is written in ol' Node-flavoured JavaScript. Unicord uses Discord.js, version **12**.
+Unicord v8 is written in ol' Node-flavoured JavaScript. Unicord uses Discord.js, version **12**.
 
 ## I created a Unicord Marketplace package in TypeScript. Can it be used?
 **No.** Unicord is JavaScript, not TypeScript. You will need to transpile your build into JavaScript 
