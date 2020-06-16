@@ -31,8 +31,6 @@ To submit a JSMaven package to Unicord for reviews, email one of these addresses
 - [danny@saturdaynightdead.xyz](mailto:danny@saturdaynightdead.xyz)
 - [git@bean.codes](mailto:git@bean.codes)
 
-Or, you can DM *Danny-kun#8860*.
-
 **Danny (a Unicord Developer) reviews all JSMaven packages.**
 
 ## I need to access a module. What do I do?
